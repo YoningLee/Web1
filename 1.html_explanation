@@ -1,0 +1,33 @@
+'Tag'
+<h1>~<h6>: 제목 중요도 순으로 크기가 큼
+<strong>: 굵은 글씨로 강조
+<u>: 밑줄로 강조
+//시각적 자유도 css로 향상가능
+<p>: 단락 구분
+//시각적 자유도 높음
+<br>: 단락 구분
+<img>: 이미지 삽입
+// 검색엔진이 웹페이지를 분석할 떄 가장 중요하게 생각
+<title>: 웹페이지 제목
+<meta>: 웹브라우저의 웹페이지 여는 방식 지정
+<body>: 본문
+<head>: 본문을 설명
+<html>: head+body를 감싸는 태그
+<!doctype html>: 웹페이지가 HTML로 만들어졌음을 표현
+<a>: 링크 접속
+
+/순서 상관x
+'Attribute 속성'
+src="이미지 파일 이름"
+width="크기"
+예시 <img src="coding.jpg" width="100%">
+title: 해당 링크가 어떤 내용을 담고 있는지를 툴팁으로 보여주는 기능
+target="_blank": 링크를 클릭했을 때 새창에서 페이지가 열리게 하는 속성
+href:
+'Parent-Child Tag and List 부모자식 태그와 리스트'
+// parent
+<ul>: unorderd list
+<ol>: ordered list
+// child
+<li>: list
+
