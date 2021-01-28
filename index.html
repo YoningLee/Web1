@@ -16,7 +16,7 @@
         i=0;
         <ol>
         while(i<list.length){
-        <li><a onclick="fetchPage('list[i]')">list[i]</a></li>
+        <li><a onclick="fetchPage(list[i])">list[i]</a></li>
         i=i+1;
         }
         </ol>
@@ -24,8 +24,8 @@
     <article>
     </article>
     <script>
-    function fetchPage('name'){
-            fetch('name').then(function(response){
+    function fetchPage(name){
+            fetch(name).then(function(response){
                    response.text().then(function(text){
                        document.querySelector('article').innerHTML = text;
                    })
