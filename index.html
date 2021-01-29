@@ -11,26 +11,20 @@
     <input id="night_day" type="button" value="night" onclick="
         nightDayHandler(this);
      ">
-    <script>
-        var list = ['HTML','CSS','JavaScript'];
-        var i=0;
-        <ol>
-        while(i<list.length){
-            document.write(list[i]"<br>");
-            i=i+1;
-        }
-        </ol>
-    </script>
+    <ol><li><a onclick="fetchPage('HTML')">HTML</a></li>
+        <li><a onclick="fetchPage('CSS')">CSS</a></li>
+        <li><a onclick="fetchPage('JavaScript')">JavaScript</a></li>
+    </ol>
     <article>
     </article>
     <script>
         function fetchPage(name){
-                fetch(name).then(function(response){
-                       response.text().then(function(text){
-                           document.querySelector('article').innerHTML = text;
-                       }
-                   }
-                )}
+        fetch('name').then(function(response){
+               response.text().then(function(text){
+                   document.querySelector('article').innerHTML = text;
+               })
+           }
+        )}
     </script>
 </body>
 </html>
