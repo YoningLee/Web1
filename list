@@ -1,3 +1,1 @@
-      <li><a href="#!HTML" onclick="fetchPage('HTML')">HTML</a></li>
-      <li><a href="#!CSS" onclick="fetchPage('CSS')">CSS</a></li>
-      <li><a href="#!JavaScript" onclick="fetchPage('JavaScript')">JavaScript</a></li>
+HTML, CSS, JavaScript
